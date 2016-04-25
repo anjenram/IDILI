@@ -1,0 +1,307 @@
+.csbgtop {
+	background: url(img/bg-top.png)  no-repeat ;
+	height: 600px !important;
+}
+.csbgdw {
+	background: url(img/bg-down.png)  no-repeat ;
+	height: 400px !important;
+}
+.csbgv {
+	background: url(img/video.png)  no-repeat ;
+	height: 400px !important;
+	 background-size: 100%;
+}
+.navbar-inverse {
+	background-color: #fff !important;
+	border-color: #fff !important;
+}
+.page-header {
+	border-bottom: none;
+}
+.bord {
+	border-left: solid 1px #000;
+	border-top: solid 1px #000;
+}
+.psyclass {
+	position: relative;
+	height: 85px;
+
+}
+.psyclass:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 80px;
+	left: 0px;
+}
+.psyclass::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 1px;
+	background: #000;
+	top: 77px;
+	margin-bottom: 3px;
+	left: 0;
+}
+.pseblock {
+	position: relative;
+}
+.pseblock:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 100%;
+	left: -16px;
+}
+/*.pseblock:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 100%;
+	margin-top: 1px;
+	right: 0;
+}*/
+.pg-l2 {
+	position: relative;
+	padding-bottom: 10px;
+}
+.pg-l2:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #000;
+	top: 100%;
+	left: -16px;
+}
+.texter {
+	margin-bottom: 0px !important;
+	padding-left: 0px !important;
+	height: 75px;
+}
+.tex {
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+	border-bottom: 0px solid #fff !important;
+}
+.texts {
+	display: inline-block !important;
+	background-color: #000 !important;
+	color: #fff !important;
+	padding: 1px 15px;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+	background: #000;
+}
+img {
+	margin-bottom: 20px !important;
+}
+.btn {
+	border: 1px solid #000 ;
+	border-radius: 0px;
+}
+.qwe {
+	position: relative;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 20px;
+}
+.qwe:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: -3px;
+	right: 0;
+}
+.qwe:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 1px;
+	background: #000;
+	top: 0px;
+	margin-top: 0;
+	right: 0;
+}
+a {
+	color: #9a8869;
+}
+.btns {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -17px;
+	border-radius: 0px;
+}
+.btns:hover {
+	background-color: #9a8869;
+	color: #fff;
+	border-color: #9a8869;
+}
+.btn-hov:hover {
+	background-color: #9a8869;
+	color: #fff;
+	border-color: #9a8869;
+}
+.buto {
+	background-color: #000;
+	color: #fff;
+}
+.btn-io {
+	background-color: #9a8869;
+	color: #fff;
+	border:none;
+}
+.lite {
+	color: #9a8869;
+}
+.block-cen {
+	position: relative;
+	padding: 15px;
+	margin: 15px;
+}
+.block-cen:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 0px;
+	left: 50%;
+	margin-left: -25%;
+
+}
+.block-cen:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 100%;
+	left: 50%;
+	margin-left: -25%;
+}
+.block-cen-bor {
+	position: relative;
+	padding: 15px 0;
+}
+.block-cen-bor:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 1px;
+	height: 10%;
+	background: #000;
+	top: 0px;
+	left: 50%;
+}
+.block-cen-bor:before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 1px;
+	height: 16%;
+	background: #000;
+	top: 100%;
+	left: 50%;
+	margin-top: -50px;
+}
+.block-rig {
+	position: relative;
+	padding: 15px 0;
+}
+.block-rig:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 1px;
+	background: #000;
+	top: 0px;
+	left: 50%;
+	margin-left: -14%;
+}
+.block-rig:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 45%;
+	height: 1px;
+	background: #000;
+	top: 100%;
+	left: -15px;
+
+	margin-left: 0%;
+}
+.block-rig-uper {
+	position: relative;
+	height: 30px;
+	padding: 15px 0;
+	margin: 15px 0;
+
+}
+.block-rig-uper:after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: #000;
+	top: 50%;
+	left: 50%;
+	margin-left: -15px;
+
+}
+.block-rig-uper:before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 50%;
+	margin-left: -15px;
+}
+.block-bord-op {
+	position: relative;
+	padding: 0px 15px;
+}
+.block-bord-op:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 1px;
+	background: #000;
+	top: 100%;
+	left: 50%
+}
+.form-control {
+	border-radius: 0;
+	border: 1px solid #000;
+}
+.pull-right {
+	float: right !important;
+}
+.contact-form-row {
+	margin-top: 30px;
+}
