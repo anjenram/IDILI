@@ -4,4 +4,4 @@
 
 >Just for fun
 
-![alt text][css\img\idili-screen.png]
+![alt text][https://github.com/anjenram/IDILI/blob/master/css/img/idili-screen.png]
